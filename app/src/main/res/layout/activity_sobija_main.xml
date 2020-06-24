@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobijaMain">
+
+    <Button
+        android:id="@+id/select1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="170dp"
+        android:text="현위치별"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/select3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="352dp"
+        android:text="지역별"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/select4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="352dp"
+
+        android:text="검색"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/select2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="170dp"
+        android:text="음식별"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
